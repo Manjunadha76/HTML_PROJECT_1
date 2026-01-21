@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>REGRESTRATION_FORM</title>
+  </head>
+  <body>
+    <h1>Course Registration Form</h1>
+
+    <form action="">
+      <fieldset>
+        <legend>Personal Details</legend>
+        <table>
+          <tr>
+            <td>First Name</td>
+            <td>
+              : <input type="text" name="first" placeholder="ex: chitti" />
+            </td>
+          </tr>
+          <tr>
+            <td>Sur Name</td>
+            <td>: <input type="text" name="sur" placeholder="ex: T" /></td>
+          </tr>
+          <tr>
+            <td>Mobile Number</td>
+            <td>
+              : <input type="tel" name="mobile" placeholder="ex: 1234567890" />
+            </td>
+          </tr>
+          <tr>
+            <td>Email</td>
+            <td>
+              :
+              <input
+                type="email"
+                name="email"
+                placeholder="ex: chitti@gmail.com"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Passoward</td>
+            <td>: <input type="password" name="passoward" id="" /></td>
+          </tr>
+
+          <tr>
+            <td>Confirm Passoward</td>
+            <td>: <input type="password" name="confirm" id="" /></td>
+          </tr>
+
+          <tr>
+            <td>D.O.B</td>
+            <td>: <input type="date" name="dob" id="" /></td>
+          </tr>
+          <tr>
+            <td>Gender</td>
+            <td><input type="radio" name="g" />Male</td>
+            <td><input type="radio" name="g" />Female</td>
+            <td><input type="radio" name="g" />others</td>
+          </tr>
+          <tr>
+            <td>Select Country</td>
+            <td>
+              :
+              <select name="country" id="">
+                <option value="">india</option>
+                <option value="">usa</option>
+                <option value="">england</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Upload picture</td>
+            <td><input type="file" name="picture" id="" /></td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+    <form action="">
+      <fieldset>
+        <legend>Course details</legend>
+        <table>
+          <tr>
+            <td>Select Course</td>
+            <td>
+              :
+              <select name="course" id="">
+                <option value="java">java</option>
+                <option value="python">python</option>
+                <option value="c">c</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Delivery mode</td>
+            <td>: <input type="checkbox" name="mode" id="" />ONLINE</td>
+            <td><input type="checkbox" name="mode" />OFFLINE</td>
+          </tr>
+          <tr>
+            <td>Comments</td>
+            <td><textarea name="" id="" cols="30" rows="4"></textarea></td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+    <form action="">
+      <fieldset>
+        <legend>Additional input types</legend>
+        <table>
+          <tr>
+            <td>webaite URL</td>
+            <td><input type="text" name="url" /></td>
+          </tr>
+          <tr>
+            <td>Search</td>
+            <td><input type="text" name="search" /></td>
+          </tr>
+          <tr>
+            <td>Age</td>
+            <td><input type="number" name="age" id="" /></td>
+          </tr>
+          <tr>
+            <td>Expreience level</td>
+            <td>
+              <input type="range" name="exprience" id="" min="0" max="100" />
+            </td>
+          </tr>
+          <tr>
+            <td>Prefered Time</td>
+            <td><input type="time" name="" id="" /></td>
+          </tr>
+          <tr>
+            <td>Interview date & time</td>
+            <td><input type="datetime-local" name="" id="" /></td>
+          </tr>
+          <tr>
+            <td>Prefered start month</td>
+            <td><input type="month" name="month" id="" /></td>
+          </tr>
+          <tr>
+            <td>prefered week</td>
+            <td><input type="week" name="week" id="" /></td>
+          </tr>
+          <tr>
+            <td>Prefered colour</td>
+            <td><input type="color" name="color" id="" /></td>
+          </tr>
+          <tr>
+            <td>Hidden field</td>
+            <td><input type="hidden" name="hidden" value="" /></td>
+          </tr>
+          <tr>
+            <td>primary skill</td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td>Specalization</td>
+            <td>
+              <select name="spelication" id="">
+                <optgroup label="Forntend">
+                  <option value="html">html</option>
+                  <option value="css">css</option>
+                  <option value="js">js</option>
+                </optgroup>
+                <optgroup label="Bacckend">
+                  <option value="node,js">NODE.JS</option>
+                  <option value="django">Djago</option>
+                  <option value="Springboot">Spring Boot</option>
+                </optgroup>
+                <optgroup label="Database">
+                  <option value="mysql">MYsQL</option>
+                  <option value="mangoDB">MoNGODB</option>
+                  <option value="postgre sql">postgerSQL</option>
+                </optgroup>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Hobbies</td>
+            <td>
+              <select name="hobbies" id="">
+                <optgroup>
+                  <option value="reading">reading</option>
+                  <option value="coding">coding</option>
+                  <option value="gamming">gamming</option>
+                  <option value="music">music</option>
+                  <option value="eating">ating</option>
+                </optgroup>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Document</td>
+            <td><input type="file" name="document" id="" /></td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+    <form action="">
+      <fieldset>
+        <legend>Important Attribute Demo</legend>
+        <table>
+          <tr>
+            <td>Readonly</td>
+            <td>
+              <input type="text" value="cannot edit this file" readonly />
+            </td>
+          </tr>
+          <tr>
+            <td>Disable</td>
+            <td>
+              <input type="text" disabled placeholder="disabeled field" />
+            </td>
+          </tr>
+          <tr>
+            <td>Autofocus</td>
+            <td>
+              <input type="text" autofocus placeholder="get auto focus" />
+            </td>
+          </tr>
+          <tr>
+            <td>Pattern</td>
+            <td>
+              <input
+                type="text"
+                pattern="[A-Z]"
+                title="only alphabet"
+                placeholder="onlty A-Z"
+              />
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+    <form action="">
+      <fieldset>
+        <legend>Output elements</legend>
+        <table>
+          <tr>
+            <td>output</td>
+            <td>Result appre here</td>
+          </tr>
+          <tr>
+            <td>progress</td>
+            <td><progress value="10" max="100"></progress>10%</td>
+          </tr>
+          <tr>
+            <td>meter</td>
+            <td><progress value="60" max="100"></progress>60%</td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+    <form action="">
+      <fieldset>
+        <legend>Buttons types</legend>
+        <table>
+          <tr>
+            <td>input type= "submit"</td>
+            <td><input type="submit" value="submit Form" /></td>
+          </tr>
+          <tr>
+            <td>input type= "reset"</td>
+            <td><input type="reset" value="reset Form" /></td>
+          </tr>
+          <tr>
+            <td>input type= "button"</td>
+            <td><input type="button" value="click me" /></td>
+          </tr>
+          <tr>
+            <td>input type= "image"</td>
+            <td><input type="button" value="✨" /></td>
+          </tr>
+          <tr>
+            <td>elemment button</td>
+            <td><input type="button" value="🎉 button element" /></td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+    <input type="submit" value="🎊submit Registration" />
+    <input type="reset" value="💥 reset all" />
+  </body>
+</html>

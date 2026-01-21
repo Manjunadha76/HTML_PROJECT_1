@@ -1,0 +1,25 @@
+body {
+  background: linear-gradient(to bottom right, #a5c89e, #fffbb1);
+}
+h1 {
+  color: #1b3c53;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-shadow: -10px 5px 10px #3e3f29;
+}
+h2 {
+  color: #3e3f29;
+}
+audio {
+  width: 70%;
+  color: #9e3b3b;
+  box-shadow: 5px 5px 10px black;
+  border-radius: 25px;
+}
+video {
+  box-shadow: 10px 10px 10px black;
+  border-radius: 25px;
+}
+img {
+  box-shadow: 10px 10px 10px black;
+  border-radius: 25px;
+}
