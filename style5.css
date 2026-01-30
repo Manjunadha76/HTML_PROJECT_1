@@ -59,13 +59,49 @@ table {
 }
 
 td {
+  width: 1%;
   padding: 5px;
 }
 label {
   font-weight: 600;
 }
-input {
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="number"],
+input[type="range"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"] {
   border-radius: 5px;
   padding: 4px;
   width: 100%;
+  background-color: rgb(83, 60, 60);
+  color: rgb(180, 171, 171);
+}
+input::placeholder {
+  color: rgb(179, 148, 148);
+  font-size: 12px;
+  font-style: italic;
+}
+input:hover {
+  background-color: white;
+  color: black;
+  font-weight: 500;
+}
+p {
+  color: #fcfcfb;
+  font-size: small;
+  background-color: rgb(83, 60, 60);
+  padding: 3px;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 3px;
+  display: none;
+}
+input:hover + p {
+  display: block;
 }
