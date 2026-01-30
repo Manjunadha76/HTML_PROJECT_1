@@ -1,0 +1,38 @@
+html {
+  background-image: linear-gradient(
+    to right bottom,
+    #dbf735,
+    #a8fa7a,
+    #88f7ad,
+    #87eed0,
+    #a5e2de
+  );
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px;
+  width: 50%;
+}
+
+nav ul li {
+  display: inline-block; /* makes items come side by side */
+  margin-right: 20px;
+  margin-top: 2%;
+}
+nav ul li a {
+  text-decoration: none;
+  position: sticky;
+}
+img {
+  border-radius: 10%;
+  box-shadow: 7px 7px 10px black;
+}
+#p1 {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+}
+.para {
+  text-align: center;
+}

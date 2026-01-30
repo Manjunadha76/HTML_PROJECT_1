@@ -1,9 +1,10 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>REGRESTRATION_FORM</title>
+    <link rel="stylesheet" href="./style5.css" />
   </head>
   <body>
     <h1>Course Registration Form</h1>
@@ -13,25 +14,24 @@
         <legend>Personal Details</legend>
         <table>
           <tr>
-            <td>First Name</td>
+            <td><label for="">First Name:</label></td>
             <td>
-              : <input type="text" name="first" placeholder="ex: chitti" />
+              <input type="text" name="first" placeholder="ex: chitti" />
             </td>
           </tr>
           <tr>
-            <td>Sur Name</td>
-            <td>: <input type="text" name="sur" placeholder="ex: T" /></td>
+            <td><label for="">Sur Name:</label></td>
+            <td><input type="text" name="sur" placeholder="ex: T" /></td>
           </tr>
           <tr>
-            <td>Mobile Number</td>
+            <td><label for="">Mobile Number:</label></td>
             <td>
-              : <input type="tel" name="mobile" placeholder="ex: 1234567890" />
+              <input type="tel" name="mobile" placeholder="ex: 1234567890" />
             </td>
           </tr>
           <tr>
-            <td>Email</td>
+            <td><label for="">Email:</label></td>
             <td>
-              :
               <input
                 type="email"
                 name="email"
@@ -40,27 +40,31 @@
             </td>
           </tr>
           <tr>
-            <td>Passoward</td>
-            <td>: <input type="password" name="passoward" id="" /></td>
+            <td><label for="">Passoward:</label></td>
+            <td><input type="password" name="passoward" id="" /></td>
           </tr>
 
           <tr>
-            <td>Confirm Passoward</td>
-            <td>: <input type="password" name="confirm" id="" /></td>
+            <td><label for="">Confirm Passoward:</label></td>
+            <td><input type="password" name="confirm" id="" /></td>
           </tr>
 
           <tr>
-            <td>D.O.B</td>
-            <td>: <input type="date" name="dob" id="" /></td>
+            <td><label for="">D.O.B:</label></td>
+            <td><input type="date" name="dob" id="" /></td>
           </tr>
           <tr>
-            <td>Gender</td>
-            <td><input type="radio" name="g" />Male</td>
-            <td><input type="radio" name="g" />Female</td>
-            <td><input type="radio" name="g" />others</td>
+            <td><label for="g">Gender</label></td>
+            <td>
+              <span
+                ><input type="radio" name="g" />Male
+                <input type="radio" name="g" />Female
+                <input type="radio" name="g" />others</span
+              >
+            </td>
           </tr>
           <tr>
-            <td>Select Country</td>
+            <td><label for="">Select Country</label></td>
             <td>
               :
               <select name="country" id="">
@@ -71,7 +75,7 @@
             </td>
           </tr>
           <tr>
-            <td>Upload picture</td>
+            <td><label for="">Upload picture</label></td>
             <td><input type="file" name="picture" id="" /></td>
           </tr>
         </table>

@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  background-image: linear-gradient(
+    to left top,
+    #61c7c7,
+    #4d9faa,
+    #407988,
+    #335564,
+    #25343f
+  );
+  background-image: linear-gradient(
+    to left top,
+    #61c7c7,
+    #4d9faa,
+    #407988,
+    #335564,
+    #25343f
+  );
+}
+h1 {
+  background-color: #335d7b;
+  width: 60%;
+  text-align: center;
+  margin: 10px auto;
+  border-radius: 10px;
+  padding: 10px;
+  color: palegoldenrod;
+}
+form {
+  padding: 10px;
+}
+fieldset {
+  padding: 20px;
+  width: 60%;
+  margin: auto;
+  border-radius: 10px;
+  background-image: linear-gradient(
+    to left top,
+    #29d730,
+    #00c299,
+    #00a4df,
+    #007deb,
+    #4749b7
+  );
+  border-color: black;
+}
+legend {
+  padding: 10px;
+  font-weight: 800;
+  font-size: 17px;
+  color: palegoldenrod;
+}
+table {
+  padding: 20px;
+}
+
+td {
+  padding: 5px;
+}
+label {
+  font-weight: 600;
+}
+input {
+  border-radius: 5px;
+  padding: 4px;
+  width: 100%;
+}
