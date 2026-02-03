@@ -1,0 +1,82 @@
+.projects {
+  height: 250px;
+  width: 200px;
+  background-color: aqua;
+  border-radius: 15px;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+  transition-delay: 0.2s;
+}
+.projects:hover {
+  height: 260px;
+  width: 210px;
+  transform: translateY(-10px);
+  box-shadow: 15px 15px 20px black;
+  transition-property: background-radius background-color;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+  transition-delay: 0.2s;
+}
+.card1 {
+  width: 100%;
+}
+.card1-img {
+  height: 50%;
+  width: 100%;
+}
+.img1 {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.card1-info p {
+  text-align: center;
+  font-weight: 800;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.projects2 {
+  height: 250px;
+  width: 200px;
+  background-color: aqua;
+  border-radius: 15px;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-delay: 0.2s;
+}
+.projects2:hover {
+  height: 260px;
+  width: 210px;
+  transform: translateY(-10px);
+  box-shadow: 15px 15px 20px black;
+  transition-property: background-radius background-color;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+  transition-delay: 0.2s;
+}
+.card2 {
+  width: 100%;
+}
+.card2-img {
+  height: 50%;
+  width: 100%;
+}
+.img2 {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.card2-info p {
+  text-align: center;
+  font-weight: 800;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.main {
+  background-color: gray;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px auto;
+  border-radius: 15px;
+}
